@@ -1,0 +1,53 @@
+@import url('../fonts/stylesheet.css');
+@import url('header.css');
+@import url('slider.css');
+@import url('categandcont.css');
+@import url('textandwidget.css');
+@import url('newsletter.css');
+
+/*cancelled paddings of bootstrap*/
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*added styles*/
+#footerwrap{
+    background: #3c3c3c;
+}
+#footerpanel{
+    padding:15px 0;
+}
+#footerpanel div p{
+    font-family: regular;
+    font-size:12px;
+    color: #7e7e7e;
+    margin:0;
+}
+#footerpanel div:after{
+    clear:both;
+}
+#footerpanel div ul{
+    float: right;
+}
+#footerpanel div ul li{
+    display: inline-block;
+    color: #7e7e7e;
+}
+#footerpanel div a{
+    font-family: regular;
+    font-size:12px;
+    color: #7e7e7e;
+}
+#footerpanel div ul li a{
+    padding:5px;
+}
+@media screen and (max-width: 768px) {
+#footerpanel div ul{
+    float: none;
+}
+#footerpanel div{
+    text-align:center;
+}
+}

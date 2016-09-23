@@ -1,0 +1,82 @@
+#textblockscont #textblockspanel{
+    padding-top:20px;
+}
+#textblockscont #textblockspanel>div{
+    padding:10px;
+}
+#textblockscont #textblockspanel>div div{
+    background: #dfdbd4;
+    padding:20px;
+}
+#textblockscont #textblockspanel>div div h6{
+    font-family: bold;
+    font-size:14px;
+    text-transform: uppercase;
+}
+#textblockscont #textblockspanel>div div p{
+    font-family: italic;
+    font-size: 12px;
+}
+#blog div .piece:after{
+    clear:both;
+}
+#textblockscont #textblockspanel>div div .piece{
+    padding:0;
+}
+#textblockscont #textblockspanel>div div .piece a{
+    color:#000000;
+    text-decoration: none;
+}
+#textblockscont #textblockspanel>div div .piece .date{
+    display:block;
+    width:30px;
+    text-align: center;
+    float:left;
+    background: #57c5a0;
+    color:#ffffff;
+    font-family: bold;
+    font-size:12px;
+    padding: 3px 0px;
+}
+#textblockscont #textblockspanel>div div .piece p{
+    padding-left:40px;
+}
+#textblockscont #textblockspanel>div div .piece .add{
+    font-family: bold;
+    font-size:14px;
+    padding-left:10px;
+}
+#widgetwrap{
+    background: #242424;
+}
+#widgetwrap #widgetpanel{
+    border-bottom: 1px solid #1c1c1c;
+}
+#widgetwrap #widgetpanel .container .widget{
+    padding:10px;
+    
+}
+#widgetwrap #widgetpanel .container .widget>div{
+    padding:20px;
+}
+#widgetwrap #widgetpanel .container .widget>div h6{
+    font-family: regular;
+    font-size:14px;
+    text-transform: uppercase;
+    color:#dfdbd4;
+}
+#widgetwrap #widgetpanel .container .widget>div p{
+    font-family: italic;
+    font-size:12px;
+    color:#dfdbd4;
+}
+#widgetwrap #widgetpanel .container .widget>div p a{
+    color: #57c5a0;
+}
+#widgetwrap #widgetpanel .container #flickrwidget div #small{
+    height: 131px;
+    overflow:hidden;
+}
+#widgetwrap #widgetpanel .container #flickrwidget div #small img{
+    padding:5px;
+}

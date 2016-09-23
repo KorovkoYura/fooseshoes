@@ -1,0 +1,125 @@
+#loginwrap{
+    height: 45px;
+    background: #333333;
+}
+#logo{
+    padding: 12px 5px;
+}
+#login>ul:after{   
+    clear:both;
+}
+#login>ul>li{
+    display: inline-block;
+    border-left:1px solid #7e7e7e;
+    float:left;
+}
+#search{
+    border:none;
+}
+#login>ul>li>a{
+    display: block;
+    padding:12px 16px 11px;
+}
+#login>ul>li a span{
+    font-size:17px;
+    color:#7e7e7e;
+}
+#ham{
+    position: relative;
+}
+#ham>ul{
+    min-width:50px;
+    display:none;
+    position: absolute;
+    right:-30px;
+    top:45px;
+    background: #ffffff;
+    z-index: 2;
+}
+#ham>ul li{
+    padding: 0 10px;
+    border-bottom:1px solid #7e7e7e;
+}
+#ham>ul li a{
+    display: block;
+    padding: 15px;
+    font-family: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+#login>ul>#reg a{
+    font-family: light;
+    font-size: 13px;
+    color: #7e7e7e;
+    text-decoration: none;
+    padding: 14px 10px 13px;
+    border-right:1px solid #7e7e7e;
+}
+#menu{
+    min-height:55px;                           
+}
+#menu ul li{
+    display: inline-block;
+    border-left:1px solid #7e7e7e;
+}
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    font-family: regular;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+@media screen and (max-width: 768px) {
+#favwrap{
+    padding:0;
+}
+}
+#favwrap a{
+    display:block;
+    padding: 15px 23px 14px;           
+    border-left: 1px solid #7e7e7e;
+    text-decoration: none;
+    color: #7e7e7e;                            
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+#favwrap a{
+    padding: 2px 26px 2px;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+#favwrap a{
+    padding: 2px 36px 2px;
+}
+}
+#favwrap #cart{
+    border-right:1px solid #7e7e7e;
+}
+#favwrap a:after{
+    clear:both;
+}
+#favwrap a span{
+    display:block;
+    float:left;
+}
+#favwrap a .sign{
+    font-size: 26px;
+    padding-right:15px;               
+}
+#favwrap a .number{
+    background: #7e7e7e;
+    color:#ffffff;
+    border-radius: 5px;
+    font-family: bold;
+    font-size:12px;
+    padding: 4px 6px;
+}
+#favwrap a .visible-xs{
+    font-family: regular;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#favwrap a:hover .number{
+    background: #57c5a0;
+}

@@ -1,0 +1,174 @@
+#categwrap{
+    background: #242424;
+    padding: 25px 10px;
+}
+#categpanel div{
+    position: relative;
+}
+#categpanel div img{
+    width:100%;
+    padding:5px;
+}
+#categpanel div div{
+    width: 50%;
+    background: url('../img/transp.png') repeat;
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    text-align: center;
+    opacity:0;
+    transition: all 0.5s ease-in-out;
+}
+#categpanel div div a{
+    display:block;
+    font-family: light;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 5px 0px;
+    text-decoration: none;
+}
+
+#categpanel div:hover div{
+    top: 40%;
+    opacity:1;
+}
+
+#contentwrap{
+    background: #ebe7df;
+    padding: 25px 10px;
+}
+.xpanel{
+    padding:15px;
+}
+.xpanel span{
+    padding:15px;
+    font-family: light;
+    font-size: 25px;
+}
+.xpanel a{
+    display:block;
+    border: 1px solid #bcb5a7;
+    color: #bcb5a7;
+    text-decoration: none;
+    font-family: bold;
+    font-size:14px;
+    padding:5px;
+}
+#contentcont{
+    border-bottom:1px solid #bcb5a7;
+    padding-bottom: 30px;
+}
+#contentcont .tuy div{
+    padding:20px;
+}
+#contentcont .tuy div .im{
+    position:relative;
+    background: #ffffff;
+    padding:20px;
+    border-bottom:1px solid #bcb5a7;
+    text-align: center;
+    z-index:2;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+#contentcont .tuy div .im img{
+    width: 160px;
+    z-index:4;
+}
+		.zoom {
+			display:inline-block;
+			position: relative;
+		}
+
+		.zoom img {
+			display: block;
+		}
+
+		.zoom img::selection { 
+            background-color: transparent; 
+        }
+#contentcont .tuy div .wr{
+    display: block;
+    background: #ffffff;
+    padding:15px 5px 5px;
+    position: relative;
+    height:48px;
+}
+#contentcont .tuy div .wr p{
+    font-family: regular;
+    font-size: 18px;
+    padding-left:105px;
+    line-height: 1;       
+}
+#contentcont .tuy div .wr .price{
+    position:absolute;
+    bottom: 0px;
+    left: 20px;
+    background: #57c5a0;
+    color:#ffffff;
+    font-family: bold;
+    font-size:13px;
+    padding: 20px 5px;
+    z-index:2;
+}
+#contentcont .tuy div .wr ul{
+    opacity:0;
+    position: absolute;
+    top:/*49px*/ 3px;
+    left: 105px;
+    z-index:4;
+    background: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+#contentcont .tuy div .wr ul li{
+    display: inline-block;
+}
+#contentcont .tuy div .wr ul li a{
+    display: block;
+    padding: 10px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #7e7e7e;
+}
+#contentcont .tuy div .wr ul li a:hover{
+    color: #57c5a0;
+}
+#contentcont .tuy div .wr:hover ul{
+    opacity:1;
+    top:3px;
+}
+.onsale{
+    position: relative;
+}
+.outofstock{
+    position: relative;
+}
+.onsale:after{
+    content:"ON SALE!";
+    position: absolute;
+    top:0;
+    right:25px;
+    display:block;
+    width:62px;
+    background: #000000;
+    color:#ffffff;
+    font-family: bold;
+    font-size:13px;
+    padding: 15px 5px;
+    z-index:2;
+
+}
+.outofstock:after{
+    content:"OUT OF STOCK";
+    position: absolute;
+    top:0;
+    right:25px;
+    display:block;
+    width:62px;
+    background: #f27e4b;
+    color:#ffffff;
+    font-family: bold;
+    font-size:13px;
+    padding: 15px 5px;
+    z-index:2;
+}
